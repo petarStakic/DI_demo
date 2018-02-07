@@ -1,8 +1,8 @@
-package rs.enentel.didemo.controllers;
+package rs.enetel.didemo.controllers;
 
 import org.springframework.stereotype.Controller;
 
-import rs.enentel.didemo.services.GreetingService;
+import rs.enetel.services.GreetingService;
 
 @Controller
 public class MyController {

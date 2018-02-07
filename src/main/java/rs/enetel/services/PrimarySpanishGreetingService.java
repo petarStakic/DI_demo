@@ -1,4 +1,4 @@
-package rs.enentel.didemo.services;
+package rs.enetel.services;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Profile;

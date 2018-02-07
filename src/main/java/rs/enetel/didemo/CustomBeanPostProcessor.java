@@ -1,4 +1,4 @@
-package rs.enentel.didemo;
+package rs.enetel.didemo;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;

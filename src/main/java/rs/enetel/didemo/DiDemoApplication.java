@@ -1,15 +1,17 @@
-package rs.enentel.didemo;
+package rs.enetel.didemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 
-import rs.enentel.didemo.controllers.ConstructorInjectedController;
-import rs.enentel.didemo.controllers.MyController;
-import rs.enentel.didemo.controllers.PropertyInjectedController;
-import rs.enentel.didemo.controllers.SetterInjectedController;
+import rs.enetel.didemo.controllers.ConstructorInjectedController;
+import rs.enetel.didemo.controllers.MyController;
+import rs.enetel.didemo.controllers.PropertyInjectedController;
+import rs.enetel.didemo.controllers.SetterInjectedController;
 
 @SpringBootApplication
+@ComponentScan(basePackages = {"rs.enetel.services", "rs.enetel.didemo"})
 public class DiDemoApplication {
 
 	public static void main(String[] args) {

@@ -5,7 +5,8 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.Test;
 
-import rs.enentel.didemo.services.GreetingServiceImpl;
+import rs.enetel.didemo.controllers.ConstructorInjectedController;
+import rs.enetel.services.GreetingServiceImpl;
 
 public class ConstructorInjectedControllerTest {
 	private ConstructorInjectedController constructorInjectedController;

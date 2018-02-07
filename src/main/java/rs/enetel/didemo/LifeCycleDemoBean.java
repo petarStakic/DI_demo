@@ -1,4 +1,4 @@
-package rs.enentel.didemo;
+package rs.enetel.didemo;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;

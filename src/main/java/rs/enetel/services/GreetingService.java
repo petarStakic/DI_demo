@@ -1,4 +1,4 @@
-package rs.enentel.didemo.services;
+package rs.enetel.services;
 
 public interface GreetingService {
 

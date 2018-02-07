@@ -1,9 +1,9 @@
-package rs.enentel.didemo.controllers;
+package rs.enetel.didemo.controllers;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 
-import rs.enentel.didemo.services.GreetingService;
+import rs.enetel.services.GreetingService;
 
 @Controller
 public class ConstructorInjectedController {
